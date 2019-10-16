@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+@import url('https://fonts.googleapis.com/css?family=Play');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Play');
+
+ * {
+  box-sizing: border-box;
+  transition: all ease-in-out 250ms;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@keyframes animate {
+  0%{
+    background-position: left 0px top 20px;
+  }
+  40%{
+    background-position: left 800px top 10px;
+  }
+}
+
+
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+}
+
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+
+}
+
+
+/* typogtraphy */
+
+
+
+}
+
+
+h1{
+  font-weight: 300;
+  font-size: 10rem;
+  margin-top: 0;
+  }
+
+  
+
+/*Typography*/
+
+.fixed-action-btn {
+  margin-right: 6em;
+}
+
+.btn-large {
+  font-family: Play;
+}
+
+.title{
+  font-family: 'Caveat', sans-serif;
+  font-family: 'Caveat', sans-serif;
+  text-shadow: initial;
+  text-shadow: currentColor;
+  margin-bottom: 1.5em;
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-top: 2em;
+}
+
+.title span {
+  font-weight: 500;
+  display: block;
+  font-size: 2em;
+}
+
+.title-cta {
+  margin-bottom: 0 0 .5em;
+}
+
+.unstyled-list{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+@media (min-width: 55rem) {
+.title{
+    font-size: 3.5rem;
+  }
+}
+
+/*header*/
+
+.top-logo{
+  text-align: center;}
+
+header {
+    background-position: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0em;
+
+  }
+
+
+
+@media (min-width: 60rem) {
+  .logo{
+    float: left;
+  }
+
+
+
+/*Home Hero*/
+
+
+.home-hero {
+  background-image:url(../img/bckgr2.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10em 0;
+  color: #FFF;
+}
+
+@media (min-width: 60rem) {
+.home-hero{
+    font-family: Caveat;
+    height: 100vh;
+    padding-top: 25vh;
+  }
+}
